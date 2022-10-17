@@ -1,0 +1,5 @@
+name = input("Enter your name:")
+print('welcome',name)
+amount = input("how much tea will you take\n")
+print("why would you want",amount,'tea?\n')
+print("ok!sir i'll get back to you")
