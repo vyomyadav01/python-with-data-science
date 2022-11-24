@@ -8,5 +8,13 @@ def draw():
     screen.fill('white')
     p.draw()
     c.draw()
+    print('drawing')
+def update():
+    print('updating')
+    p.x -= 3
+    p.angle = -10
+    if p.x < 0:
+        p.x = WIDTH
+    print(p.x, p.y)
 pgzrun.go()
  
