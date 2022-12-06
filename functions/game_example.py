@@ -14,7 +14,7 @@ def p_move():
     #function to move player
     if keyboard.left:
         p.x -= 3
-        p.angle = +10 
+        p.angle += 10 
     elif keyboard.right:
         p.x += 3
         p.angle = -10
