@@ -1,2 +1,0 @@
-hi everyone,this is sample file
-this is the new data that is going to be writtenDA and HRA.py
